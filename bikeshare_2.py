@@ -83,7 +83,7 @@ with data_set:
 
         Args:
             (str) city 
-            (str) month - name of the month to filter by, or "all" to apply no month filter
+            (str) month 
             (str) day - name of the day of week to filter by, or "all" to apply no day filter
         Returns:
             df - Pandas DataFrame containing city data filtered by month and day
